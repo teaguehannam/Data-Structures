@@ -1,24 +1,13 @@
 # Data Structures 
 
-Topics:
  * Singly Linked Lists
  * Queues and Stacks
  * Doubly Linked Lists
  * Binary Search Trees
  * Related Code Challenge Problems
-
-Stretch Goals:
  * LRU Cache
  * Heaps
  * AVL Trees
-
-## Completion Requirements
- * Module 1: Implement the Stack and Queue classes using built-in Python lists and the Node and LinkedList classes you created during the Module 1 Guided Project.
- * Module 2: Implement the Doubly Linked List class
- * Module 3: Implement the Binary Search Tree class
- * Module 4: Implement traversal methods on Binary Search Trees
- 
- > NOTE: The quickest and easiest way to reliably import a file in Python is to just copy and paste the file you want to import into the same directory as the file that wants to import. This obviously isn't considered best practice, but it is the most reliable way to do it across all platforms.  If the import isn't working, feel free to try this method.
 
 ### Stacks
 * Should have the methods: `push`, `pop`, and `len`.
@@ -59,12 +48,6 @@ Stretch Goals:
 ![Image of Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/300px-Binary_search_tree.svg.png)
 
 ---
-
-Once you've gotten the tests passing, it's time to analyze the runtime complexity of your `get` and `set` operations. There's a way to get both operations down to sub-linear time. In fact, we can get them each down to constant time by picking the right data structures to use. 
-
-Here are you some things to think about with regards to optimizing your implementation: If you opted to use a dictionary to work with key-value pairs, we know that dictionaries give us constant access time, which is great. It's cheap and efficient to fetch pairs. A problem arises though from the fact that dictionaries don't have any way of remembering the order in which key-value pairs are added. But we definitely need something to remember the order in which pairs are added. Can you think of some ways to get around this constraint?
-
-## Stretch Goals
 
 ### LRU Cache
 An LRU (Least Recently Used) cache is an in-memory storage structure that adheres to the [Least Recently Used](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)) caching strategy. 
